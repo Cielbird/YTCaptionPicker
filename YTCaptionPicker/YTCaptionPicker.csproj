@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="YoutubeExplode" />
+    <None Remove="YoutubeExplode.Converter" />
+    <None Remove="FFMpegCore" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="YoutubeExplode" Version="6.0.7" />
+    <PackageReference Include="YoutubeExplode.Converter" Version="6.0.7" />
+  </ItemGroup>
+</Project>
